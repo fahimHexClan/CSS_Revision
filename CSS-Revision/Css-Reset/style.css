@@ -1,0 +1,57 @@
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+  
+  /* Preferred box-sizing value */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* For images to not be able to exceed their container */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Removes spacing between cells in tables */
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Revert the 'white-space' property for textarea elements on Safari */
+  textarea {
+    white-space: revert;
+  }
+
+
+/*uda thiyana code tika  delete karala yata tiyamna eka witharak balanna eya defult css eka applay karranawa -eka maru karanna thama
+css reset use karanne default css ain karranna - uda thiyana codes tika reset css thama 
+
+https://css-tricks.com/an-interview-with-elad-shechter-on-the-new-css-reset/    - me link eke a code eka gana puluwan
+
+*/
+
+
+
+
+div{
+    background-color:blue ;
+}
+h1{
+    color: aliceblue;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
