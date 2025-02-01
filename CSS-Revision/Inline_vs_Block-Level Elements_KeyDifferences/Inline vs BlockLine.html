@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <style>
+        #box1{
+            background-color: aqua;
+            padding: 30px;
+            border: 5px solid green;
+            margin: 10px;
+
+        }
+        #box2{
+            background-color: aqua;
+            padding: 20px;
+            border: 5px solid rgb(44, 96, 44);
+            margin: 10px;
+            
+        }
+
+        .nextline{/*Inline elment BlockLine wenna ona nam meka danna*/
+            display: block;
+
+        }
+
+        .current_element{ /*blockleve elment inline wenna ona nam meka danna*/
+            display: inline;
+        }
+
+/*meka replace karanna css eken aawa inline blocklne ,Uda thiyanawa ballanna --> */
+
+   
+    </style>
+
+<!-- Block level element -->
+ <!-- Start in new line -->
+  <!-- Examples: <div>, <p>, <h1>–<h6>, <section>, <article> -->
+    <!-- You can set width, height, margin, and padding. -->
+     <!-- block line full web size eka gannawa-->>
+    <div id="box1"> 
+         <h1 class="current_element">Hello </h1>
+         <h2 class="current_element">World</h2>
+    </div>
+
+    <!-- Inline Element -->
+      <!-- Do not start on a new line. -->
+        <!-- Examples: <span>, <a>, <strong>, <img>, <em> -->
+            <!-- Cannot set width or height directly. Their size is determined by their content. -->
+                  <!-- in line a word eke size eka withari ganne-->>
+
+    <div id="box2">
+        <span >hi</span>
+        <span class="nextline">World</span>
+    </div>
+    
+</body>
+</html>
